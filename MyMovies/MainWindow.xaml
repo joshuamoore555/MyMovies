@@ -5,8 +5,54 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MyMovies"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="1065.714" Width="1920" WindowState="Maximized" Background="Lavender" >
+    <TabControl x:Name="myTabControl" HorizontalAlignment="Left" Margin="0,0,-8,-21" Width="1920" Background="White">
+
+        <TabControl.Items>
+            <TabItem Header="ListView" Visibility="Visible" Background="White" >
+                <Grid Margin="0,0,1180,0">
+                    <ListBox SelectionMode="Multiple" HorizontalAlignment="Left" Height="1007" Margin="10,0,-501,0" VerticalAlignment="Top" Width="1225" Name="List" SelectionChanged="List_SelectionChanged" FontSize="22" Background="WhiteSmoke" FontFamily="Calibri"  />
+                    <TextBlock TextWrapping="Wrap" Margin="1285,27,-1091,713" x:Name="Title" FontSize="24"/>
+                    <Button Content="Play" Margin="1279,522,-1088,452" Name="Play" Click="Play_Click" Background="#FFEBF3F3"/>
+                    <Button Content="Delete Selected" Margin="1282,666,-1091,314" x:Name="Delete" Click="Delete_Click" Background="#FFEBF3F3"/>
+                    <Button Content="Search" Margin="1282,793,-1091,187" x:Name="Search" Click="Refresh_Click" Background="#FFEBF3F3"/>
+                    <TextBox x:Name="Min" HorizontalAlignment="Left" Height="50" Margin="1626,860,-1086,0" TextWrapping="Wrap" Text="15" VerticalAlignment="Top" Width="194" PreviewTextInput="TextBox_PreviewTextInput"/>
+                    <TextBox x:Name="Max" HorizontalAlignment="Left" Height="50" Margin="1626,931,-1088,0" TextWrapping="Wrap" Text="240" VerticalAlignment="Top" Width="194" PreviewTextInput="TextBox_PreviewTextInput"/>
+                    <TextBlock TextWrapping="Wrap" Margin="1279,341,-848,562" x:Name="Status" FontSize="24"/>
+                    <TextBox x:Name="SearchBar" HorizontalAlignment="Left" Height="50" Margin="1626,371,-1088,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" />
+                    <RadioButton Content="TV Shows" HorizontalAlignment="Left" Margin="1285,875,-651,0" VerticalAlignment="Top" Width="100" Checked="TVShowChecked"/>
+                    <RadioButton Content="Movies" HorizontalAlignment="Left" Margin="1285,919,-651,0" VerticalAlignment="Top" Width="100" Checked="MovieChecked"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="TileView" Visibility="Visible" Background="White" >
+                <Grid Margin="0,0,0,0">
+                    <Button x:Name="Left" HorizontalAlignment="Left" Margin="10,331,0,0" VerticalAlignment="Top" Width="60" FontSize="24"  Height="309" Background="Lavender" >
+                        <TextBlock x:Name="LeftText" Text="&lt;" FontSize="18"></TextBlock>
+                    </Button>
+                    <Button x:Name="Button1" HorizontalAlignment="Left" Margin="108,331,0,0" VerticalAlignment="Top" Width="260" FontSize="48"  Height="309" Background="Lavender" >
+                        <TextBlock x:Name="Text1" Text="Test" FontSize="18" Height="232" Width="187" TextWrapping="WrapWithOverflow"/>
+                    </Button>
+                    <Button x:Name="Button2" HorizontalAlignment="Left" Margin="394,331,0,0" VerticalAlignment="Top" Width="260" FontSize="48"  Height="309" Background="Lavender" >
+                        <TextBlock x:Name="Text2" Text="Test" FontSize="18" Height="249" Width="214" TextWrapping="WrapWithOverflow"/>
+                    </Button>
+                    <Button x:Name="Button3" HorizontalAlignment="Left" Margin="685,331,0,0" VerticalAlignment="Top" Width="260" FontSize="48"  Height="309" Background="Lavender" >
+                        <TextBlock x:Name="Text3" Text="Test" FontSize="18" Height="227" Width="192" TextWrapping="WrapWithOverflow"/>
+                    </Button>
+                    <Button x:Name="Button4" HorizontalAlignment="Left" Margin="976,331,0,0" VerticalAlignment="Top" Width="260" FontSize="48"  Height="309" Background="Lavender" >
+                        <TextBlock x:Name="Text4" Text="Test" FontSize="18" Height="234" Width="218" TextWrapping="WrapWithOverflow"/>
+                    </Button>
+                    <Button x:Name="Button5" HorizontalAlignment="Left" Margin="1258,331,0,0" VerticalAlignment="Top" Width="260" FontSize="48"  Height="309" Background="Lavender" >
+                        <TextBlock x:Name="Text5" Text="Test" FontSize="18" Height="226" Width="207" TextWrapping="WrapWithOverflow"/>
+                    </Button>
+                    <Button x:Name="Right" HorizontalAlignment="Left" Margin="1841,331,0,0" VerticalAlignment="Top" Width="60" FontSize="48" Height="309" Background="Lavender" >
+                        <TextBlock x:Name="RightText" Text="&gt;" FontSize="18" TextWrapping="WrapWithOverflow"/>
+                    </Button>
+                    <Button x:Name="Button6" HorizontalAlignment="Left" Margin="1554,331,0,0" VerticalAlignment="Top" Width="260" FontSize="48"  Height="309" Background="Lavender" >
+                        <TextBlock x:Name="Text6" Text="Test" FontSize="18" Height="232" TextWrapping="WrapWithOverflow" Width="177"/>
+                    </Button>
+                </Grid>
+            </TabItem>
+        </TabControl.Items>
+    </TabControl>
 </Window>

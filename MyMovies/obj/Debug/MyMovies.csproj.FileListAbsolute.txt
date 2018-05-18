@@ -1,0 +1,36 @@
+C:\Users\User\source\repos\MyMovies\MyMovies\bin\Debug\MyMovies.exe.config
+C:\Users\User\source\repos\MyMovies\MyMovies\bin\Debug\MyMovies.exe
+C:\Users\User\source\repos\MyMovies\MyMovies\bin\Debug\MyMovies.pdb
+C:\Users\User\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies.csprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\MyMovies\MyMovies\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\MyMovies\MyMovies\obj\Debug\App.g.cs
+C:\Users\User\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies_MarkupCompile.cache
+C:\Users\User\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies_MarkupCompile.lref
+C:\Users\User\source\repos\MyMovies\MyMovies\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies.g.resources
+C:\Users\User\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies.Properties.Resources.resources
+C:\Users\User\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies.csproj.GenerateResource.cache
+C:\Users\User\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies.exe
+C:\Users\User\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies.pdb
+C:\Users\User\source\repos\MyMovies\MyMovies\obj\Debug\Interop.Shell32.dll
+C:\Users\User\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies.csproj.ResolveComReference.cache
+C:\Users\User\source\repos\MyMovies\MyMovies\obj\Debug\Interop.WMPLib.dll
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\bin\Debug\MyMovies.exe.config
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\bin\Debug\MyMovies.exe
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\bin\Debug\MyMovies.pdb
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies.csprojResolveAssemblyReference.cache
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\obj\Debug\Interop.Shell32.dll
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\obj\Debug\Interop.WMPLib.dll
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies.csproj.ResolveComReference.cache
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\obj\Debug\MainWindow.g.cs
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\obj\Debug\App.g.cs
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies_MarkupCompile.cache
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies_MarkupCompile.lref
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\obj\Debug\MainWindow.baml
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies.g.resources
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies.Properties.Resources.resources
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies.csproj.GenerateResource.cache
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies.csproj.CoreCompileInputs.cache
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies.exe
+C:\Users\Joshua Moore\source\repos\MyMovies\MyMovies\obj\Debug\MyMovies.pdb
